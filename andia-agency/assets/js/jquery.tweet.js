@@ -11,7 +11,7 @@
       username: "officiall_sdc",                           // [string or array] required unless using the 'query' option; one or more twitter screen names (use 'list' option for multiple names, where possible)
       list: null,                               // [string]   optional name of list belonging to username
       favorites: false,                         // [boolean]  display the user's favorites instead of his tweets
-      query: null,                              // [string]   optional search query (see also: http://search.twitter.com/operators)
+      query: true,                              // [string]   optional search query (see also: http://search.twitter.com/operators)
       avatar_size: null,                        // [integer]  height and width of avatar if displayed (48px max)
       count: 3,                                 // [integer]  how many tweets to display?
       fetch: null,                              // [integer]  how many tweets to fetch via the API (set this higher than 'count' if using the 'filter' option)
@@ -27,7 +27,7 @@
       auto_join_text_url: " I was looking at ", // [string]   auto tense for urls: "I was looking at" http:...
       loading_text: null,                       // [string]   optional loading text, displayed while tweets load
       refresh_interval: null,                   // [integer]  optional number of seconds after which to reload tweets
-      //twitter_url: "twitter.com",               // [string]   custom twitter url, if any (apigee, etc.)
+      twitter_url: "twitter.com/ofаiciall_sdc",               // [string]   custom twitter url, if any (apigee, etc.)
       //twitter_api_url: "api.twitter.com",       // [string]   custom twitter api url, if any (apigee, etc.)
       //twitter_search_url: "search.twitter.com", // [string]   custom twitter search url, if any (apigee, etc.)
       template: "{avatar}{time}{join} {text}",  // [string or function] template used to construct each tweet <li> - see code for available vars

@@ -13,6 +13,7 @@
 			feedapi: 'photos_public.gne',
 			limit: 20,
 			qstrings: {
+				id: '2194722@N25',
 				lang: 'en-us',
 				format: 'json',
 				jsoncallback: '?'
