@@ -27,15 +27,9 @@
       auto_join_text_url: " I was looking at ", // [string]   auto tense for urls: "I was looking at" http:...
       loading_text: null,                       // [string]   optional loading text, displayed while tweets load
       refresh_interval: null,                   // [integer]  optional number of seconds after which to reload tweets
-<<<<<<< HEAD
-      twitter_url: "twitter.com/ofаiciall_sdc",               // [string]   custom twitter url, if any (apigee, etc.)
-      //twitter_api_url: "api.twitter.com",       // [string]   custom twitter api url, if any (apigee, etc.)
-      //twitter_search_url: "search.twitter.com", // [string]   custom twitter search url, if any (apigee, etc.)
-=======
       twitter_url: "twitter.com",               // [string]   custom twitter url, if any (apigee, etc.)
       twitter_api_url: "api.twitter.com",       // [string]   custom twitter api url, if any (apigee, etc.)
       twitter_search_url: "search.twitter.com", // [string]   custom twitter search url, if any (apigee, etc.)
->>>>>>> parent of bfc61d6... исправила ошибку с твитами.
       template: "{avatar}{time}{join} {text}",  // [string or function] template used to construct each tweet <li> - see code for available vars
       comparator: function(tweet1, tweet2) {    // [function] comparator used to sort tweets (see Array.sort)
         return tweet2["tweet_time"] - tweet1["tweet_time"];
