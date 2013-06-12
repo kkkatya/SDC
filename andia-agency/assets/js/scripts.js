@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
 */
 jQuery(function($) {
     $(".show-tweets").tweet({
-        username: "anli_zaimi",
+        username: "officiall_sdc",
         page: 1,
         count: 10,
         loading_text: "loading ..."
